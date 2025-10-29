@@ -30,23 +30,23 @@ El programa se basa en el mecanismo de resolución lógica SLD, el cual busca de
 
 El flujo general es el siguiente:
 
-- Consulta inicial
+- Consulta inicial: 
 Se define una meta (por ejemplo, **("muy_picante", "enchiladas_verdes")**).
 
-- Verificación directa en los hechos
+- Verificación directa en los hechos: 
 Se comprueba si la meta coincide con algún hecho en la base de conocimiento.
 
-- Aplicación de reglas
+- Aplicación de reglas: 
 Si no se encuentra coincidencia directa, se buscan reglas cuya cabeza (head) coincida con la consulta.
 
     - Si se encuentra una, se resuelven las submetas (body) de forma recursiva.
 
-- Unificación
+- Unificación: 
 El motor intenta igualar predicados, buscando sustituciones que hagan equivalentes los términos (por ejemplo, **?X = enchiladas_verdes**).
 
-- Resultado
+- Resultado: 
 Si todas las submetas se satisfacen, la consulta se considera verdadera y se devuelve la sustitución resultante.
 
 ## Uso del for y recursividad
 
-En el código original se utilizaron estructuras for para recorrer listas de hechos y reglas, sin embargo en comentariso de bloque se muestra el equivalente a si se hubiera hecho con recursividad:)
+En el código original se utilizaron estructuras for para recorrer listas de hechos y reglas, sin embargo en comentarios de bloque se muestra el equivalente a si se hubiera hecho con recursividad:)
