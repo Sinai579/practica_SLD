@@ -64,7 +64,7 @@ Y las leyes y hechos utilizados son los siguientes:
 -    ("incluye", "tortitas_de_atun_en_salsa", "ajo"),
 -    ("incluye", "tortitas_de_atun_en_salsa", "chile_serrano"),
 -    ("incluye", "tortitas_de_atun_en_salsa", "perejil"),
--    # Tiempos de preparación en minutos
+   ### Tiempos de preparación en minutos
 -    ("tiempo_preparacion", "chilaquiles_verdes", 40),
 -    ("tiempo_preparacion", "arroz_con_pollo", 50),
 -    ("tiempo_preparacion", "tacos_carne_asada", 30),
@@ -113,11 +113,11 @@ Y las leyes y hechos utilizados son los siguientes:
 -    ("tiempo_preparacion", "milanesa_de_res_con_ensalada", 40),
 -    ("tiempo_preparacion", "pollo_con_brocoli_y_zanahoria", 35),
 -    ("tiempo_preparacion", "tortitas_de_atun_en_salsa", 40),
--    # Chiles poco picantes
+ ### Chiles poco picantes
 -    ("chile_poco", "chile_jalapeno"),
 -    ("chile_poco", "chile_poblano"),
 -    ("chile_poco", "aji_amarillo"),
--    # Chiles picantes
+ ### Chiles picantes
 -    ("chile_picante", "chile_serrano"),
 -    ("chile_picante", "chile_guajillo"),
 -    ("chile_picante", "chile_ancho"),
